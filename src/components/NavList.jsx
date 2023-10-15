@@ -6,7 +6,7 @@ import { NavItem } from "./NavItem";
 export const Navlist = () => {
   const [data, setData] = useState(NavData);
   return (
-    <Grid container spacing={3}>
+    <Grid container spacing={3} sx={{ marginBottom: 3 }}>
       {data.map((item) => (
         <NavItem item={item} />
       ))}

@@ -12,5 +12,10 @@ export const NavData = [{
         xs: 3,
         link: "/Eleclist",
         label: "Electronic List"
+    },
+    {
+        xs: 1,
+        link: "/math",
+        label: "Math"
     }
 ]
